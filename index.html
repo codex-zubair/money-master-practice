@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Money Master</title>
+</head>
+
+<body style="background-color: burlywood ;">
+    <main>
+        <h1 class="text-center">Money Master</h1>
+
+        <section>
+            <!-- Income Div Start -->
+            <div>
+                <h3 class="text-center">Income</h3>
+                <span>Income: </span><input id="income" class=" input-filed m-2" type="text" value="">
+            </div>
+            <!-- Income Div End -->
+
+
+            <!-- Expenses Div Start -->
+            <div>
+                <h3 class="text-center">Expenses</h3>
+                <span>Food: </span> <input id="food" class=" input-filed mt-2" type="text" value="">
+            </div>
+            <!-- Expenses Div End -->
+
+
+            <!-- Rent Div Start -->
+            <div>
+                <span>Rent: </span><input id="rent" class=" input-filed mt-2" type="text" value="">
+            </div>
+            <!-- Rent Div End -->
+
+
+            <!-- Clothes Div Start -->
+            <span>Clothes: </span><input id="clothes" class=" input-filed mt-2" type="text" value="">
+            <!-- Clothes Div End -->
+        </section>
+
+        <!-- Button Section Start  -->
+        <button id="calculate" class="bg-blue-500 px-2
+        mt-4 py-1">
+            Calculate
+        </button>
+
+        <h1>
+            Total Expenses: <span id="total-expenses">5500</span>
+        </h1>
+
+        <h1>
+            Balance: <span id='balance'>4500</span>
+        </h1>
+
+
+        <input id='percentage' type="text" name="" id="" value=""> <span> %</span>
+        <button id='save' class="bg-sky-500 px-10 py-1">Save</button>
+
+
+
+        <!-- Saving Section -->
+        <h1>Saving Amount: <span id='saving-amount'>2000</span></h1>
+        <h1>Remaining Balance: <span id='remaining-balance'>2500</span> </h1>
+        <!-- Button Section End -->
+
+    </main>
+
+
+    <script src="./money-master.js"></script>
+</body>
+
+</html>
